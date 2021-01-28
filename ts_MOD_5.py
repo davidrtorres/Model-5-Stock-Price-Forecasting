@@ -56,7 +56,7 @@ app.layout = html.Div([
                                     html.Button(id='submit-button',
                                                 n_clicks =0,
                                                 children='Submit',
-                                                style={'fontSize':24, 'marginLeft':'30px','color': 'red'})
+                                                style={'fontSize':24, 'marginLeft':'100px','color': 'red'})
                         ], style={'display':'inline-block'}),   
                             
                            
