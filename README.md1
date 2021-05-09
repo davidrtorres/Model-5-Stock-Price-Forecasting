@@ -13,5 +13,7 @@ If I could only get good results with higher levels of parameter tuning then it 
 non-financial backgrounds could really use these tools.  
 
 The Data
-I worked with data from stocks of 6 companies producing COVID-19 vaccines. 
+I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance.  The library provides sufficient 
+stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical 
+to the data frames. 
 
