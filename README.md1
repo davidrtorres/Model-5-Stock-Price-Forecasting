@@ -18,7 +18,7 @@ stock data consisting of opening, closing price and volume, etc.  It was easy to
 to the data frames. 
 
 Methodology
-The methodology I used was to check the performance of certain financial tools and algorithms in market analysis and forecasting.  I used only basic 
+The methodology I used was to check the performance of financial tools and algorithms in market analysis and forecasting.  I used only basic 
 calculations in Python for the financial indicators and for the financial algorithms using only the default parameters and/or basic tuning of parameters.  
 For moving averages I used only 10 and 50 day calculations for the algorithms which are pretty basic.  
 
