@@ -4,4 +4,11 @@ technical indicators, deep learning, and ARIMA models to perform the tasks.  Sto
 indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools 
 available to the public so they could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models 
 would need to be created so they are user-friendly for individuals with a non-technical background , easy to understand and produce good results.  The 
-algorithms would need to be so user-friendly that all the user need to input the stock symbol and the application would produce the results.
+algorithms would need to be user-friendly so that all the user need to input the stock symbol and the application would produce the results.
+
+I would like to build a platform where subscribers can use deep learning and ARIMA algorithms for price forecasting by simply inputting the stock symbol.  
+This platform may already exist and if it does this is an opportunity for me to test the results of such algorithms.  What I set out to determine in my 
+Capstone was whether financial tools and algorithms could produce good results with mainly default parameters or minimal tuning of the parameters.  
+If I could only get good results with higher levels of parameter tuning then it would be questionable whether subscribers with non-technical and 
+non-financial backgrounds could really use these tools.  
+
