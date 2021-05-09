@@ -1,3 +1,3 @@
-## Introduction ##
+Introduction 
 My Capstone project consists of working with time series datasets to conduct market analysis and price forecasting.  My modeling consisted of working with technical indicators, deep learning, and ARIMA models to perform the tasks.  Stock traders and analysts have a lot of tools available to them like technical indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools  available to the public so they could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would need to be created so they are user-friendly for individuals with a non-technical background , easy to understand and produce good results.  The algorithms would need to be so user-friendly that all the user need to input the stock symbol and the application would produce the results.
-﻿
+
