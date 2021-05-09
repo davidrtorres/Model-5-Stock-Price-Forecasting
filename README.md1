@@ -23,7 +23,7 @@ calculations in Python for the financial indicators and for the financial algori
 For moving averages I used only 10 and 50 day calculations for the algorithms which are pretty basic.  
 
 I created ARIMA models for the price forecasting.  I used the Auto_Arima models to get the pdqs and lowest AIC for the ARIMA model.  
-Regarding LSTM models, I only used 3 layers with no dropout layers and 25 epochs.  For the forecasting I used One-Step Ahead Forecasting and Dynamic 
+Regarding LSTM models, I only used 3 layers with no dropout layers and 25 epochs.  For the price forecasting I used One-Step Ahead Forecasting and Dynamic 
 Forecasting.     
 
 
