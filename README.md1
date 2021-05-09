@@ -17,3 +17,10 @@ I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I go
 stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical 
 to the data frames. 
 
+Methodology
+The methodology I used was to check the performance of certain financial tools and algorithms in market analysis and forecasting.  I used only basic 
+calculations in Python for the financial indicators and for the financial algorithms using only the default parameters and/or basic tuning of parameters.  
+For moving averages I used only 10 and 50 day calculations for the algorithms which are pretty basic.  For the LSTM models I only used 3 layers with no 
+dropout layers and 25 epochs.    
+
+
