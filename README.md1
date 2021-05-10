@@ -24,9 +24,22 @@ For moving averages I used only 10 and 50 day calculations for the algorithms wh
 
 I created ARIMA models for the price forecasting.  I used the Auto_Arima models to get the pdqs and lowest AIC for the ARIMA model.  
 Regarding LSTM models, I only used 3 layers with no dropout layers and 25 epochs.  For the price forecasting I used One-Step Ahead Forecasting and Dynamic 
-Forecasting.    
+Forecasting.  
 
-Question 2:
+Question 2: How well does the LSTM model perform in forecasting stock prices with 'Adj Close' and Technical Indicator columns with default parameters and 
+minimal tuning of model parameters?
+
+
+            Volatility	Min	Max	Mean	RMSE
+NVAX	      High	3.6900	319.9290	88.549	27.96
+PFE	        Low	25.6990	41.6910	32.999	0.71
+MRNA	High	13.9300	186.0200	75.152	24.04
+JNJ	Low	108.2136	169.4235	145.426	13.34
+BNTX	High	12.7500	208.8990	70.957	22.84
+AZN	Low	36.7790	59.4660	49.690	7.17
+
+
+Question 3:
 Does the SARIMA algorithm perform better in predicting future stocks price with the Adj Close column or Technical Indicators ?
 
                      RMSE/One	     RMSE/Dyn
