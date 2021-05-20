@@ -20,7 +20,8 @@ For moving averages I used only 10 and 50 day calculations for the algorithms wh
 
 Market Analysis<br>
 <br>
- This plot provides a historical overview of the value selected.  In this plot I selected the 'Adj Close' column.  The plot gives an overview of the stock price.  We can see that PFe and AZN aren't volatile stock.  However,  
+ This plot provides a historical overview of the value selected.  In this plot I selected the 'Adj Close' column.  The plot gives an overview of the stock price.  We can see that PFe and AZN aren't volatile stock.  However, NVAX and MRNA are very volatile.<BR>
+<br> 
 <img src="/images/stock_data_plot.png" width="550" height="350">
  
 
