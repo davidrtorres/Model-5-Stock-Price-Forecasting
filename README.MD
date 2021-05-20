@@ -15,7 +15,7 @@ The methodology I used was to check the performance of financial tools and algor
 calculations in Python for the financial indicators and for the financial algorithms using only the default parameters and/or basic tuning of parameters.  
 For moving averages I used only 10 and 50 day calculations for the algorithms which are pretty basic. 
 
-<img src="/images/stock_data_plot.png" width="500" height="280">
+<img src="/images/stock_data_plot.png" width="550" height="280">
  
 
 I created ARIMA models for the price forecasting.  I used the Auto_Arima models to get the pdqs and lowest AIC for the ARIMA model.  
