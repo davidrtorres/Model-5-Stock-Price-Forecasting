@@ -10,7 +10,7 @@ non-financial backgrounds could really use these tools.
 The Data<br>
 I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance and the Pandas library DataReader.  The library provides stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical indicators to the data frames.  The data was eay to plot and provided a historical overview of which data values were selected.  In this plot I selected the 'Adj Close' column. 
 
- ![This is test](/images/historical_plot.png)
+ ![This is test](/images/stock_data.png)
 
 
 Methodology
