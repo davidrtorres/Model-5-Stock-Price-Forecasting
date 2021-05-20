@@ -5,7 +5,7 @@ I would like to build a platform where subscribers can use deep learning and ARI
 Capstone was whether financial tools and algorithms could produce good results with mainly default parameters or minimal tuning of the parameters.  If I could only get good results with higher levels of parameter tuning then it would be questionable whether users with non-technical and non-financial backgrounds could really use these tools.  
 
 The Data<br>
-I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance and the Pandas library DataReader.  The library provides stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical indicators to the data frames.  The data was eay to plot and provided a historical overview of which data values were selected.  In this plot I selected the 'Adj Close' column. 
+I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance and the Pandas library DataReader.  The library provides stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical indicators to the data frames. 
 
  ![This is test](/images/stock_data.png)
 
