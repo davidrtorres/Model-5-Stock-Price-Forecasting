@@ -7,7 +7,7 @@ need to be created so they are user-friendly for individuals with a non-technica
 algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, 
 there could be some parameter tuning but at a minial level.screen.png
 
- ![This is test](screen.png)
+ ![This is test](/images/screen.png)
 
 I would like to build a platform where subscribers can use deep learning and ARIMA algorithms for price forecasting by simply inputting the stock symbol.  
 This platform may already exist and if it does this is an opportunity for me to test the results of such algorithms.  What I set out to determine in my 
