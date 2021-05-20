@@ -1,4 +1,4 @@
-Introduction
+Introduction<br>
 My Capstone project consists of working with time series datasets to conduct market analysis and price forecasting.  My modeling consisted of working with 
 technical indicators, LSTM models, and ARIMA models to perform the tasks.  Stock traders and analysts have a lot of tools available to them like technical 
 indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools 
