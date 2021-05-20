@@ -5,7 +5,7 @@ indicators and financial algorithms to perform market analysis and price forecas
 could be made so anyone could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would 
 need to be created so they are user-friendly for individuals with a non-technical background, easy to understand and produce good results.  The 
 algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, 
-there could be some parameter tuning but at a minial level.screen.png
+there could be some parameter tuning but at a minial level.
 
  ![This is test](/images/screen.png)
 
