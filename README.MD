@@ -1,11 +1,5 @@
 Introduction<br>
-My Capstone project consists of working with time series datasets to conduct market analysis and price forecasting.  My modeling consisted of working with 
-technical indicators, LSTM models, and ARIMA models to perform the tasks.  Stock traders and analysts have a lot of tools available to them like technical 
-indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools 
-could be made so anyone could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would 
-need to be created so they are user-friendly for individuals with a non-technical background, easy to understand and produce good results.  The 
-algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, 
-there could be some parameter tuning but at a minial level.
+My Capstone project consisted of working with time series datasets to perform market analysis and price forecasting.  I used LSTM and ARIMA models for the forcasting and tecnhical indicators for the market analysis.  Stock traders and analysts have a lot of tools available to them like technical indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools could be made avaialbe so anyone could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would need to be made so that an individuals with a non-technical or financial background could easly understand how to use thme and the models would produce good results.  The algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, there could be some parameter tuning but at a minial level.
 
  ![This is test](/images/screen.png)
 
