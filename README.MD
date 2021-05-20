@@ -16,7 +16,7 @@ Methodology<br>
 <br>
 The methodology I used was to check the performance of financial tools and algorithms in market analysis and forecasting.  I used only basic 
 calculations in Python for the financial indicators and for the financial algorithms using only the default parameters and/or basic tuning of parameters.  
-Regrading Technical Indicators  I used moving averages and the daily price change to assess a stock's volatility and performance.  I used only 10 and 50 day calculations for the algorithms which are pretty basic.  
+Regrading Technical Indicators  I used moving averages and the daily price change to assess a stock's volatility and performance.  I used the 10 and 50 day calculations for the algorithms which are pretty basic.  The Daily Price Change is effective in showing how much the price has changed on a daily basis.  Gives you a pretty good idea how volatile the stock is on a daily basis.
 
 Market Analysis<br>
 <br>
