@@ -38,6 +38,7 @@ Moving averages smooth out the curve by filtering out the noise inorder to highl
 <img src="/images/moving_average_plot.png" width="550" height="350">
 
 #### Daily Return<br>
+The daily return.
 <img src="/images/daily_return.png" width="550" height="350">
 
 ## Modeling:
