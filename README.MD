@@ -30,7 +30,10 @@ Forecasting.
 <br> 
 <img src="/images/stock_data_plot.png" width="550" height="350">
  
-
+### Technical Indicators<br>
+Moving averages smooth out the curve by filtering out the noise inorder to highlight components in the data such as trends and seasonality.  The below plot is of PFE stock with 10 and 50 day moving averages of the 'Adj Close' price.  It looks like the stock price is volatile with lots of fluctuations and noise. The 10-day follows the Close price pretty closely but smooths out the positve and negative spikes in prices. The 50-day eliminates most of the volatility. The SMA smooths out the noise and gives a more accurate picture of how stock performs during volatile periods.<br>
+<br>
+<img src="/images/moving_average_plot.png" width="550" height="350">
 ## Modeling:
 I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bough and sold.I used 
 LSTM and ARIMA models for price forecasting.  My modeling was structured around the following questions:
