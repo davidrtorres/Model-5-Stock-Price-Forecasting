@@ -32,9 +32,13 @@ Forecasting.
 <img src="/images/stock_data_plot.png" width="550" height="350">
  
 ### Technical Indicators<br>
+#### Moving Averages<br>
 Moving averages smooth out the curve by filtering out the noise inorder to highlight components in the data such as trends and seasonality.  The below plot is of PFE stock with 10 and 50 day moving averages of the 'Adj Close' price.  Moving averages are important in conducting a market analysis because they smooth out the noise and gives a more accurate picture of how stock performed during volatile periods.  It looks like the stock price is volatile with lots of fluctuations and noise. The 10-day follows the Close price pretty closely but smooths out the positve and negative spikes in prices. The 50-day eliminates most of the volatility.  Around 2/18, there was a spike in price from $35.00 to almost $37.50 and then dropped quickly to almost $32.00. What is the SMA showing us?  The price increased and dropped precipitously. We may not know what precipitated such activity, but what were the 10 and 50 day averages around this time period for a more accurate picture of what the stock price was for that period? How does this compare to performance of the stock in general?  The average price of the stock was $35.578751. When applying 10 and 50-day the average price is still $35. When I subset the data the average price was $34.015994. When I applied the 10 and 50-day Moving Averages the average price is still a $34.052809 and $34.168457, respectively. So is the stock price really that volatile? Not really.<br>
 
 <img src="/images/moving_average_plot.png" width="550" height="350">
+
+#### Daily Return<br>
+<img src="/images/daily_return.png" width="550" height="350">
 
 ## Modeling:
 I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bough and sold.I used 
