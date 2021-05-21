@@ -1,33 +1,41 @@
-Introduction
-My Capstone project consists of working with time series datasets to conduct market analysis and price forecasting.  My modeling consisted of working with 
-technical indicators, LSTM models, and ARIMA models to perform the tasks.  Stock traders and analysts have a lot of tools available to them like technical 
-indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools 
-could be made so anyone could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would 
-need to be created so they are user-friendly for individuals with a non-technical background, easy to understand and produce good results.  The 
-algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, 
-there could be some parameter tuning but at a minial level.
+# Deep Learning and Technical Indicators for Time Series Forecasting<br>
 
-I would like to build a platform where subscribers can use deep learning and ARIMA algorithms for price forecasting by simply inputting the stock symbol.  
-This platform may already exist and if it does this is an opportunity for me to test the results of such algorithms.  What I set out to determine in my 
-Capstone was whether financial tools and algorithms could produce good results with mainly default parameters or minimal tuning of the parameters.  
-If I could only get good results with higher levels of parameter tuning then it would be questionable whether subscribers with non-technical and 
-non-financial backgrounds could really use these tools.  
+## Introduction<br>
+<br>
+My Capstone project consisted of working with time series datasets to perform market analysis and price forecasting.  I used LSTM and ARIMA models for the forcasting and tecnhical indicators for the market analysis.  Stock traders and analysts have a lot of tools available to them like technical indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools could be made available so anyone could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would need to be made so that an individuals with a non-technical or financial background could easly understand how to use them and the models would produce good results.  The algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, there could be some parameter tuning but at a minimal level.
 
-The Data
-I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance.  The library provides sufficient 
-stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical 
-indicators to the data frames. 
+I would like to build a platform where subscribers can use deep learning and ARIMA algorithms for price forecasting by simply inputting the stock symbol.  This platform may already exist and if it does this was an opportunity for me to test the results of such algorithms.  What I set out to determine in my 
+Capstone was whether financial tools and algorithms could produce good results with mainly default parameters or minimal tuning of the parameters.  If I could only get good results with higher levels of parameter tuning then it would be questionable whether users with non-technical and non-financial backgrounds could really use these tools.  
 
-Methodology
+## The Data<br>
+<br>
+I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance and the Pandas library DataReader.  The library provides stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical indicators to the data frames.  This is the data I got for the Pfizer stock.  The time period of the data was 1/3/2017 - 4/30/2021.
+
+ ![This is test](/images/stock_data.png)
+
+
+## Methodology<br>
+<br>
 The methodology I used was to check the performance of financial tools and algorithms in market analysis and forecasting.  I used only basic 
 calculations in Python for the financial indicators and for the financial algorithms using only the default parameters and/or basic tuning of parameters.  
-For moving averages I used only 10 and 50 day calculations for the algorithms which are pretty basic.  
-
+Regrading Technical Indicators  I used moving averages and the daily price change to assess a stock's volatility and performance.  I used the 10 and 50 day calculations for the algorithms which are pretty basic.  I used the moving averages for a clearer picture of how stocks performed by averaging out the increases and drops in the stock price.  The Daily Price Change is effective in showing how much the price has changed on a daily basis.  This gives you a pretty good idea how volatile the stock is on a daily basis.<br>
+<br>
 I created ARIMA models for the price forecasting.  I used the Auto_Arima models to get the pdqs and lowest AIC for the ARIMA model.  
 Regarding LSTM models, I only used 3 layers with no dropout layers and 25 epochs.  For the price forecasting I used One-Step Ahead Forecasting and Dynamic 
 Forecasting. 
 
-Modeling:
+## Market Analysis<br>
+<br>
+ This plot provides a historical overview of the PFE stock and the 'Adj Close' column.  I created functions which allow for creating a plot of an individual stock or to compare multiple stocks and selecting the value of the data.  The below plot provides an overview of the 'Adj Close' price for the six stocks.  We can see that PFE and AZN aren't volatile stocks.  However, NVAX and MRNA are very volatile.  The y-axis is the stock price.<BR>
+<br> 
+<img src="/images/stock_data_plot.png" width="550" height="350">
+ 
+### Technical Indicators<br>
+Moving averages smooth out the curve by filtering out the noise inorder to highlight components in the data such as trends and seasonality.  The below plot is of PFE stock with 10 and 50 day moving averages of the 'Adj Close' price.  It looks like the stock price is volatile with lots of fluctuations and noise. The 10-day follows the Close price pretty closely but smooths out the positve and negative spikes in prices. The 50-day eliminates most of the volatility. The SMA smooths out the noise and gives a more accurate picture of how stock performs during volatile periods.<br>
+
+<img src="/images/moving_average_plot.png" width="550" height="350">
+
+## Modeling:
 I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bough and sold.I used 
 LSTM and ARIMA models for price forecasting.  My modeling was structured around the following questions:
 
