@@ -1,5 +1,5 @@
 # Deep Learning and Technical Indicators for Time Series Forecasting<br>
-<br>
+
 ## Introduction<br>
 <br>
 My Capstone project consisted of working with time series datasets to perform market analysis and price forecasting.  I used LSTM and ARIMA models for the forcasting and tecnhical indicators for the market analysis.  Stock traders and analysts have a lot of tools available to them like technical indicators and financial algorithms to perform market analysis and price forecasting.  The goal of my project was to see whether these financial tools could be made available so anyone could perform market analysis and price forecasting from their laptops, tablets and/or smart phones.  These tools and models would need to be made so that an individuals with a non-technical or financial background could easly understand how to use them and the models would produce good results.  The algorithms would need to be user-friendly so that all the user needs to do is input the stock symbol and the application would produce the results.  Also, there could be some parameter tuning but at a minimal level.
