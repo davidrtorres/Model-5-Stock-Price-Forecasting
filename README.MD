@@ -20,16 +20,16 @@ The methodology I used was to check the performance of financial tools and algor
 calculations in Python for the financial indicators and for the financial algorithms using only the default parameters and/or basic tuning of parameters.  
 Regrading Technical Indicators  I used moving averages and the daily price change to assess a stock's volatility and performance.  I used the 10 and 50 day calculations for the algorithms which are pretty basic.  I used the moving averages for a clearer picture of how stocks performed by averaging out the increases and drops in the stock price.  The Daily Price Change is effective in showing how much the price has changed on a daily basis.  This gives you a pretty good idea how volatile the stock is on a daily basis.
 
+I created ARIMA models for the price forecasting.  I used the Auto_Arima models to get the pdqs and lowest AIC for the ARIMA model.  
+Regarding LSTM models, I only used 3 layers with no dropout layers and 25 epochs.  For the price forecasting I used One-Step Ahead Forecasting and Dynamic 
+Forecasting. 
+
 ## Market Analysis<br>
 <br>
  This plot provides a historical overview of the PFE stock and the 'Adj Close' column.  I created functions which allow for creating a plot of an individual stock or to compare multiple stocks and selecting the value of the data.  The below plot provides an overview of the 'Adj Close' price for the six stocks.  We can see that PFE and AZN aren't volatile stocks.  However, NVAX and MRNA are very volatile.  The y-axis is the stock price.<BR>
 <br> 
 <img src="/images/stock_data_plot.png" width="550" height="350">
  
-
-I created ARIMA models for the price forecasting.  I used the Auto_Arima models to get the pdqs and lowest AIC for the ARIMA model.  
-Regarding LSTM models, I only used 3 layers with no dropout layers and 25 epochs.  For the price forecasting I used One-Step Ahead Forecasting and Dynamic 
-Forecasting. 
 
 ## Modeling:
 I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bough and sold.I used 
