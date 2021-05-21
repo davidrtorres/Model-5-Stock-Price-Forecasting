@@ -1,4 +1,4 @@
-# Deep Learning and Technical Indicators for Time Series Forecasting<br>
+# Deep Learning and Technical Indicators for Market Analysis and Time Series Forecasting<br>
 
 ## Introduction<br>
 <br>
@@ -8,9 +8,10 @@ I would like to build a platform where subscribers can use deep learning and ARI
 Capstone was whether financial tools and algorithms could produce good results with mainly default parameters or minimal tuning of the parameters.  If I could only get good results with higher levels of parameter tuning then it would be questionable whether users with non-technical and non-financial backgrounds could really use these tools.  
 
 ## The Data<br>
-<br>
-I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance and the Pandas library DataReader.  The library provides stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical indicators to the data frames.  This is the data I got for the Pfizer stock.  The time period of the data was 1/3/2017 - 4/30/2021.
 
+
+I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I got the data using the library Yahoo Finance and the Pandas library DataReader.  The library provides stock data consisting of opening, closing price and volume, etc.  It was easy to put the data into Pandas and then I added calculations from the technical indicators to the data frames.  This is the data I got for the Pfizer stock.  The time period of the data was 1/3/2017 - 4/30/2021.<br>
+<br>
  ![This is test](/images/stock_data.png)
 
 
@@ -31,9 +32,14 @@ Forecasting.
 <img src="/images/stock_data_plot.png" width="550" height="350">
  
 ### Technical Indicators<br>
-Moving averages smooth out the curve by filtering out the noise inorder to highlight components in the data such as trends and seasonality.  The below plot is of PFE stock with 10 and 50 day moving averages of the 'Adj Close' price.  It looks like the stock price is volatile with lots of fluctuations and noise. The 10-day follows the Close price pretty closely but smooths out the positve and negative spikes in prices. The 50-day eliminates most of the volatility. The SMA smooths out the noise and gives a more accurate picture of how stock performs during volatile periods.<br>
+#### Moving Averages<br>
+Moving averages smooth out the curve by filtering out the noise inorder to highlight components in the data such as trends and seasonality.  The below plot is of PFE stock with 10 and 50 day moving averages of the 'Adj Close' price.  Moving averages are important in conducting a market analysis because they smooth out the noise and gives a more accurate picture of how stock performed during volatile periods.  It looks like the stock price is volatile with lots of fluctuations and noise. The 10-day follows the Close price pretty closely but smooths out the positve and negative spikes in prices. The 50-day eliminates most of the volatility.  Around 2/18, there was a spike in price from $35.00 to almost $37.50 and then dropped quickly to almost $32.00. What is the SMA showing us?  The price increased and dropped precipitously. We may not know what precipitated such activity, but what were the 10 and 50 day averages around this time period for a more accurate picture of what the stock price was for that period? How does this compare to performance of the stock in general?  The average price of the stock was $35.578751. When applying 10 and 50-day the average price is still $35. When I subset the data the average price was $34.015994. When I applied the 10 and 50-day Moving Averages the average price is still a $34.052809 and $34.168457, respectively. So is the stock price really that volatile? Not really.<br>
 
 <img src="/images/moving_average_plot.png" width="550" height="350">
+
+#### Daily Return<br>
+The daily return.
+<img src="/images/daily_return.png" width="550" height="350">
 
 ## Modeling:
 I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bough and sold.I used 
