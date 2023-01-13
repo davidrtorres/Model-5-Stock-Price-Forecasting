@@ -70,15 +70,6 @@ Does the SARIMA algorithm perform better in predicting future stocks price with 
 
  <img src="/images/question_3.png" width="300" height="200">
  
-                     RMSE/One	     RMSE/Dyn
-PFE/Adj Close	       0.53	         3.02
-PFE/MA_50	           0.02	         1.57
-PFE/Actual_Changes	 0.53	         0.53
-BNTX/Adj Close	     6.60	         41.42
-BNTX/MA_50	         74.67	       17.24
-BNTX/actual_changes	 6.46	         6.67
-NVAX /Adj Close	     4.30	         35.11
-
 For each model I ran One-Step Ahead Forecasting and Dynamic Forecasting to see if that made a difference in the models forecasting. Regarding Pfizer, I ran 
 the models with the columns Adj_Close, MA_50, Actual_Changes. Pfizer is not a volatile stock. With One-Step Ahead the models did really well and the 
 predicitons were off by around 0.53 or less. In Dynamic Forecasting, the models still performed well but with Adj_Close column model was off 3.02.
