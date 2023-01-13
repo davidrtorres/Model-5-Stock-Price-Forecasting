@@ -39,7 +39,7 @@ Moving averages smooth out the curve by filtering out the noise inorder to highl
 #### Daily Return<br>
 The daily return.<br>
 
-<img src="/images/daily_return.png" width="550" height="350">
+<img src="/images/daily_return.png" width="300" height="200">
 
 ## Modeling:
 I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bought and sold.I used 
