@@ -59,13 +59,6 @@ minimal tuning of model parameters?
 <br>
 <img src="/images/question_2.png" width="550" height="350">
 
-            Volatility	Min	Max	Mean	RMSE
-NVAX	 High	3.6900	319.9290	88.549	27.96
-PFE	 Low	25.6990	41.6910	32.999	0.71
-MRNA	High	13.9300	186.0200	75.152	24.04
-JNJ	Low	108.2136	169.4235	145.426	13.34
-BNTX	High	12.7500	208.8990	70.957	22.84
-AZN	Low	36.7790	59.4660	49.690	7.17
 
 This first part of this section deals with LSTM models and the 6 pharmaceutical stocks. The data consists of the Adj Close price for each stock. The 
 second part I used the PFE stock with the columns 'MA_50' and 'Actual_Changes'. Overall the models performed pretty well. The stocks perfoemd well. As 
