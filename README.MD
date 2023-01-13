@@ -57,6 +57,8 @@ minimal tuning of model parameters?
 
 <br>
 <img src="/images/question_2.png" width="550" height="350">
+<br> 
+<img src="/images/question_2_b.png" width="550" height="350">
 
 
 This first part of this section deals with LSTM models and the 6 pharmaceutical stocks. The data consists of the Adj Close price for each stock. The 
