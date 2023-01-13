@@ -57,7 +57,7 @@ Question 2: How well does the LSTM model perform in forecasting stock prices wit
 minimal tuning of model parameters?
 
 <br>
- ![This is test](/images/question_2.png)
+<img src="/images/question_2.png" width="550" height="350">
 
             Volatility	Min	Max	Mean	RMSE
 NVAX	 High	3.6900	319.9290	88.549	27.96
