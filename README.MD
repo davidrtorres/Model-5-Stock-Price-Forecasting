@@ -48,7 +48,7 @@ LSTM and ARIMA models for price forecasting.  My modeling was structured around 
 Question 1: Can technical indicators provide an investor or trader with information to make a decision of whether to buy and sell stocks?
 Answer: Yes
 Technical indicators are tools used by investors and traders to gain insights regarding the stock's history, volatility, trends and the direction the price 
-may be headed. I used moving averages with averages of 10 and 50, MACD crossover strategies and the RSI ( Relative Strength Index) to answer this question.  
+may be headed. I used moving averages with averages of 10 and 50, MACD crossover strategies and the RSI (Relative Strength Index) to answer this question.  
 The MACD was effective in showing at what points the stock could have been bought or sold.   
 
 
