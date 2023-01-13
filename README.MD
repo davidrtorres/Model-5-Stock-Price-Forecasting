@@ -62,8 +62,7 @@ minimal tuning of model parameters?
 
 
 This first part of this section deals with LSTM models and the 6 pharmaceutical stocks. The data consists of the Adj Close price for each stock. The 
-second part I used the PFE stock with the columns 'MA_50' and 'Actual_Changes'. Overall the models performed pretty well. The stocks perfoemd well. As 
-expected the stocks that were highly volatile didn't perform as well as those with low volatility stocks but that is expected given their price histories.
+second part I used the PFE stock with the columns 'MA_50' and 'Actual_Changes'. Overall the models performed pretty well.  As expected the stocks that were highly volatile didn't perform as well as those with low volatility stocks but that is expected given their price histories.
 
 
 Question 3:
