@@ -43,7 +43,7 @@ The daily return.<br>
 <img src="/images/daily_return.png" width="550" height="350">
 
 ## Modeling:
-I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bough and sold.I used 
+I used technical indciators to determine the price history, volatility of the stocks and price points when stocks should have been bought and sold.I used 
 LSTM and ARIMA models for price forecasting.  My modeling was structured around the following questions:
 
 Question 1: Can technical indicators provide an investor or trader with information to make a decision of whether to buy and sell stocks?
