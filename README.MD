@@ -56,6 +56,8 @@ The MACD was effective in showing at what points the stock could have been bough
 Question 2: How well does the LSTM model perform in forecasting stock prices with 'Adj Close' and Technical Indicator columns with default parameters and 
 minimal tuning of model parameters?
 
+<br>
+ ![This is test](/images/question_2.png)
 
             Volatility	Min	Max	Mean	RMSE
 NVAX	 High	3.6900	319.9290	88.549	27.96
