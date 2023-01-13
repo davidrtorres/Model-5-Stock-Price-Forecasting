@@ -14,7 +14,6 @@ I worked with data from stocks of 6 companies producing COVID-19 vaccines.  I go
 <br>
  ![This is test](/images/stock_data.png)
 
-
 ## Methodology<br>
 <br>
 The methodology I used was to check the performance of financial tools and algorithms in market analysis and forecasting.  I used only basic 
