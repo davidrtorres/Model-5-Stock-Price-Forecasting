@@ -68,6 +68,8 @@ second part I used the PFE stock with the columns 'MA_50' and 'Actual_Changes'. 
 Question 3:
 Does the SARIMA algorithm perform better in predicting future stocks price with the Adj Close column or Technical Indicators?
 
+ <img src="/images/question_3.png" width="300" height="200">
+ 
                      RMSE/One	     RMSE/Dyn
 PFE/Adj Close	       0.53	         3.02
 PFE/MA_50	           0.02	         1.57
